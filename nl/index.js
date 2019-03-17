@@ -32,7 +32,7 @@ client.on("guildDelete", guild => {
 client.on("message", async message => {
   
   // Bot berichten? :gelezen:
-  if(message.author.id === "") 
+  if(message.author.id === "[USER ID]") // Vervang [USER ID] met de userID van de ander.
 	 message.channel.send({embed: {
     color: 3447003,
     author: {
