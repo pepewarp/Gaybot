@@ -1,4 +1,4 @@
 { 
-  "token"  : "     ", // Vul hier je bot token in!
-  "prefix" : "&" // De bot-prefix, aanpassen is optioneel!
+  "token"  : "VUL-HIER-DE-TOKEN-VAN-JE-BOT-IN", 
+  "prefix" : "&"
 } 
