@@ -1,5 +1,6 @@
 # Homobot
 NL: Warps 'Gaybot' voor tweedracht, origineel gemaakt om bepaalde mensen te irriteren.
+
 EN: Warps 'Gaybot' for discord, originally made to annoy specific people.
 
 # Functie(s) / Function(s)
