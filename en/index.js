@@ -104,10 +104,9 @@ if(!message.member.roles.some(r=>["Admin"].includes(r.name)) )
         name: "*Say",
         value: "Makes the bot send a custom message."
       },
-      {
-        name: "*Spam",
-        value: "Sends a custom message 5 times!"
-      }
+      { name: "Homo! function",
+	      value: "Replace [USERID] in INDEX.JS with the USERID of your target!"
+	     }
 	 ]}
  
  })};
