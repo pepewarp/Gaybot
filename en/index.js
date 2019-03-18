@@ -51,26 +51,6 @@ if(message.author.id === "[USERID]")
 // Check for messages from real users [END]
 	 
 	 
-	 // *Spam command [BEGIN]
-  if(command === "spam") {
-	  const sayMessage = args.join(" ");
-	  message.delete().catch(O_o=>{}); 
-	 if(!message.member.roles.some(r=>["Admin"].includes(r.name)) )
-		 return message.reply("Fuck off please.");
-    if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage); 
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
- }
-	 // *Spam command [END]
-	 
-
 	 // *Say command [BEGIN]
  if(command === "say") {
  const sayMessage = args.join(" ");
