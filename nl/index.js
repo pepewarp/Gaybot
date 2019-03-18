@@ -50,27 +50,6 @@ if(message.author.id === "[USERID]")
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 // Check voor berichten van gebruikers [EINDE]
-	 
-	 
-	 // *Spam commando [BEGIN]
-  if(command === "spam") {
-	  const sayMessage = args.join(" ");
-	  message.delete().catch(O_o=>{}); 
-	 if(!message.member.roles.some(r=>["Admin"].includes(r.name)) )
-		 return message.reply("Fuck off please.");
-    if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage); 
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
-if(message.member.roles.some(r=>["Admin"].includes(r.name)) )
-    message.channel.send(sayMessage);
- }
-	 // *Spam commando [EINDE]
-	 
 
 	 // *Zeg commando [BEGIN]
  if(command === "zeg") {
@@ -96,7 +75,7 @@ if(!message.member.roles.some(r=>["Admin"].includes(r.name)) )
       name: "Homobot - Help!",
       icon_url: client.user.avatarURL,
     },
-    title: "Commands:",
+    title: "Functies:",
     fields: [{
         name: "*Help",
         value: "Stuurt je dit bericht!"
@@ -105,10 +84,8 @@ if(!message.member.roles.some(r=>["Admin"].includes(r.name)) )
         name: "*Zeg",
         value: "Stuurt een bericht namens de bot."
       },
-      {
-        name: "*Spam",
-        value: "Stuurt een bericht namens de bot. (x5)"
-      }
+	     { name: "Homo! functie",
+	      value: "Verander [USERID] in de broncode van de bot met het USERID van je doelwit!"
 	 ]}
  
  })};
