@@ -86,7 +86,8 @@ if(!message.member.roles.some(r=>["Admin"].includes(r.name)) )
       },
 	     { name: "Homo! functie",
 	      value: "Verander [USERID] in de broncode van de bot met het USERID van je doelwit!"
-	 ]}
+	     }
+	    ]}
  
  })};
 	 // *Help commando [EINDE]
