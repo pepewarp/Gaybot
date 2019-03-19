@@ -91,6 +91,7 @@ if(!message.member.roles.some(r=>["Admin"].includes(r.name)) )
  
  })};
 	 // *Help commando [EINDE]
+	 // ik zit in een constante fase van depressieve gedachten en seksueel onbegrip
 	 
 	 // *Werp commando [BEGIN]
  if(command === "werp", "warp", "teleporteer") {
